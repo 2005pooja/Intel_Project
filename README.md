@@ -26,7 +26,7 @@ This saves fault_model.pkl in the models/ folder.
 - Support for manual input or CSV upload
 - Feature importance visualization
 - Prediction probability display
-- Advice on bearing replacement or maintenance
+- bearing replacement or maintenance prediction
 
 ## Notes
 - Dataset is synthetic and for demonstration purposes only.
