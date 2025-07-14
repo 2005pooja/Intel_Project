@@ -1,9 +1,9 @@
 # Bearing Fault Detection in High-Speed Textile Spinning Frames
 
 ## Project Structure
-- `data/` — synthetic dataset (`bearing_vibration_data.csv`)  
-- `models/` — trained model (`model.pkl`)  
-- `app/` — Streamlit app (`app.py`) and training script (`train_model.py`)  
+- `data/` — synthetic dataset (`Signal1.csv`)  
+- `models/` — trained model (`fault_model.pkl`)  
+- `src/` — Streamlit app (`gui_app.py`) and training script (`model_training.py`)  
 - `requirements.txt` — Python dependencies
 
 ## Setup Instructions
@@ -13,13 +13,13 @@
 
 - Train the model:  
   ```bash
-  cd app
-  python train_model.py
-This saves model.pkl in the models/ folder.
+  cd gui_app
+  python model_training.py
+This saves fault_model.pkl in the models/ folder.
 
 - Run the Streamlit app:
   ```bash
-  streamlit run app/app.py
+  streamlit run src/gui_app.py
 
 ## Features
 - Predict bearing condition level from vibration sensor data
